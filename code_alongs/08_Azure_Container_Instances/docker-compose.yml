@@ -8,7 +8,6 @@ services:
     ports:
       - "3000:3000"
     image: crbigdatadev123.azurecr.io/hr-pipeline:latest
-    platform: linux/amd64
 
   dashboard:
     build:
